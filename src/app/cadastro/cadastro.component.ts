@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Usuario } from './../Usuarios/usuario';
 
 @Component({
   selector: 'app-cadastro',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
 
+  userCadastro : Usuario = {};
   constructor() { }
 
   ngOnInit(): void {
