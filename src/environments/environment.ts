@@ -15,6 +15,9 @@ export const environment = {
   }
 };
 
+//firebase.initializeApp(firebaseConfig);
+//firebase.analytics();
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

@@ -8,6 +8,7 @@ import { Usuario } from './../Usuarios/usuario';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+    userLogin : Usuario = {};
 
   userLogin : Usuario = {};
   
