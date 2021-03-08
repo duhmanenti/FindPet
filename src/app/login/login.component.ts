@@ -7,9 +7,8 @@ import { Usuario } from './../Usuarios/usuario';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
-    userLogin : Usuario = {};
 
+export class LoginComponent implements OnInit {
   userLogin : Usuario = {};
   
   constructor() { }
