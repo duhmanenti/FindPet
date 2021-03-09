@@ -12,7 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { FeedComponent } from './feed/feed.component';
-import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.component';
+import { RecuperarsenhaComponent } from './login/recuperarsenha/recuperarsenha.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.component';
 
@@ -24,7 +24,7 @@ import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.comp
     TelaInicialComponent,
     PerfilComponent,
     FeedComponent,
-    RecuperarSenhaComponent,
+    RecuperarsenhaComponent,
     SobreNosComponent,
     EditarPerfilComponent
   ],
