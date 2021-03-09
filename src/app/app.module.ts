@@ -9,24 +9,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
-import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { FeedComponent } from './feed/feed.component';
 import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroComponent,
     LoginComponent,
-    TelaInicialComponent,
     PerfilComponent,
     FeedComponent,
     RecuperarSenhaComponent,
     SobreNosComponent,
-    EditarPerfilComponent
+    EditarPerfilComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
