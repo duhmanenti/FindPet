@@ -11,6 +11,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { FeedComponent } from './feed/feed.component';
+import { RecuperarsenhaComponent } from './login/recuperarsenha/recuperarsenha.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.component';
 import { HomeComponent } from './home/home.component';
@@ -22,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     PerfilComponent,
     FeedComponent,
+    RecuperarsenhaComponent,
     SobreNosComponent,
     EditarPerfilComponent,
     HomeComponent
