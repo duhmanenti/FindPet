@@ -10,7 +10,6 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { FeedComponent } from './feed/feed.component';
 import { RecuperarsenhaComponent } from './login/recuperarsenha/recuperarsenha.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
