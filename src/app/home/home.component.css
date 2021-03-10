@@ -1,0 +1,13 @@
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px;
+    padding: 10px 30px;
+    color: #bfa2ed;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
