@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AjudaComponent } from './ajuda/ajuda.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { FeedComponent } from './feed/feed.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'sobre-nos', component:SobreNosComponent},
   {path: 'perfil', component:PerfilComponent},
   {path: 'feed', component:FeedComponent},
+  {path: 'ajuda', component:AjudaComponent},
   {path:'', redirectTo: 'home', pathMatch:'full'}
 ];
 

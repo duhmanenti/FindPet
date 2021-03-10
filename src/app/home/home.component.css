@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 239, 239);
+    background-color: #ffefef;
     background-position: fixed;
     padding: 0;
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@ body{
     min-width: 100vh;
     border:0;
 }
+/* estilo da barra de navegação */
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,8 +18,12 @@ ul {
     overflow: hidden;
     background-color:rgb(255, 239, 239);
   }
-  
-
+  .imglogo{
+    width: 50px;
+    height: 50px;
+    padding: 0 5px;
+  }
+/* posição da barra de navegação */
   .id{
       position: fixed;
       top: 0;
@@ -26,11 +31,30 @@ ul {
       right: 0;
       height: 50px;
   }
-  
+
+  /* posições dos botões na barra de navegação*/
   li {
-    float: left;
+    float: right;
   }
-  
+  .posicao1{
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    left: 5%;
+}
+  /* posição botão do Findpet */
+  .posicao2{
+      float: left;
+      display: block;
+      color: #6559a3;
+      text-align: center;
+      padding: 16px 7px;
+      text-decoration: none;
+      font-size:large;
+      font-family: Arial, Helvetica, sans-serif; 
+      font-weight: bold;
+  }
+  /* estilo dos botões da barra de navegação */
   li a {
     display: block;
     color: #6559a3;
@@ -43,27 +67,31 @@ ul {
   
   /*Mudar a cor dos botões da barra de navegação quando passar o mouse*/
   li a:hover {
-    background-color: #261e4d;
+    background-color: #6559a3;
+    color: white;
   }
 
+  /* posição do da div com o título e descrição */ 
   .sobre{
       position: absolute;
       top:20%;
       left: 8%;
   }
-
+/* estilo do título FindPet */
   h1 {
       line-height: 0.2;
       font-size: 120px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: #6559a3;  
   }
+  /* estilo da descrição */
   h2 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #6559a3;  
 }
 
+/* estilo do botão Criar Conta */
 .btn{
     border-radius: 5px;
     padding: 10px 40px;
@@ -73,10 +101,9 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-
-    
-    
 }
+
+/* estilo do botão Entrar */
 .btn1{
     border-width: 3px;
     border-style: solid;
@@ -90,26 +117,20 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    
-   
 }
-/* 
-Mudar a cor do botão "Entrar" quando passar o mouse
-*/
+
+/* Mudar a cor do botão "Entrar" quando passar o mouse */
 .btn1:hover{
      background-color: #6559a3;
     color: white;
 }
-/* 
-Mudar a cor do botão "Criar conta" quando passar o mouse
-*/
+/* Mudar a cor do botão "Criar conta" quando passar o mouse */
 .btn:hover{
     background-color: #261e4d;
-
 }
 
+/*altera o tamanho da imagem*/ 
 .img{
-    /*altera o tamanho da imagem*/ 
     width: 400px;
     height: 400px;
     border-radius: 50px;
@@ -117,14 +138,14 @@ Mudar a cor do botão "Criar conta" quando passar o mouse
     top: 50%; 
     left: 75%;
     right: 30px;
-    
     transform: translate(-50%, -50%);
 }
+/* posição da div */
 .button{
     position: absolute;
     top: 70%;
     left:20%;
     right: 40%;
-        transform: translate(-30%, -80%);
+    transform: translate(-30%, -80%);
     
   }
