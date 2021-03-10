@@ -1,46 +1,43 @@
-
 <!DOCTYPE html>
-<html>
-   
-<head>
- <title>FindPet</title>
-</head>
- 
-<body class="fundo">
- 
-    <div class="logobox">
-       <h1>Cadastro</h1>
-   <form>
-       <p> Nome</p>
-       <input type="text" name="" placeholder="Nome" [(ngModel)]="userCadastro.nome" name="nome" required>
-       <p> Sobrenome</p>
-       <input type="text" name="" placeholder="Sobrenome" [(ngModel)]="userCadastro.sobrenome" name="sobrenome" required>
-       <p> E-mail</p>
-       <input type="text" name="" placeholder="E-mail" [(ngModel)]="userCadastro.email" name="email" required email>
-        <p> Senha  </p>
-       <input type="password" name="" placeholder="Senha" [(ngModel)]="userCadastro.senha" name="password" required>
-       <p> Confirmar senha  </p>
-       <input type="password" name="" placeholder="Confirmar senha" [(ngModel)]="userCadastro.senha" name="password" required>
-       <p> Telefone  </p>
-       <input type="text" name="" placeholder="(00)00000-0000" [(ngModel)]="userCadastro.telefone" name="telefone" required>
-       <p> Estado </p>
-       <input type="text" name="" placeholder="Cidade" [(ngModel)]="userCadastro.estado" name="estado" required>
-       <p> Cidade  </p>
-       <input type="text" name="" placeholder="Cidade" [(ngModel)]="userCadastro.cidade" name="cidade" required>
-       <p> Bairro  </p>
-       <input type="text" name="" placeholder="Bairro" [(ngModel)]="userCadastro.bairro" name="bairro" required>
-       
-       <input type="submit" name="" value="Cadastrar"  class="inputs">
-       <ul>
-       <a href="a"> Já tenho uma conta!
-           <link> Entrar <link>
-       </a>
-    </ul>
+<html lang="pt-br">
+  <head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    
+  </head>
+  <body >
+    <div class="login-box" > 
+      <form > 
+          <h1> Cadastre-se </h1>
+          <hr>
+      </form>
+      <br>
+  <input type="text" name="" placeholder="Nome">
+     
+  <input type="text" name="" placeholder="Sobrenome"> 
+  <div>
+    <input type="email" name="email"  placeholder="email" required>
+</div>
+  
+  <input type="password" name="" placeholder="Senha" >
 
-   </form>
-   </div>
-   
-  </body>
+  <input type="password" name="" placeholder="Confirmar senha" >
+ 
+<!-- onkeypress="return event.charCode >= 48 && event.charCode <= 57" é usado para aceitar apenas retornos com numéros-->
+  <input type="text"  onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="11" name="" placeholder="(00)00000-0000" >
+
+   <input type="text" name="" placeholder="Cidade" >
+ 
+   <input type="text" name="" placeholder="Estado" >
+ 
+   <input type="text" name="" placeholder="Bairro">
+ 
+   <input type="submit" name="" value="Criar"  class="b">
+
+ 
+  </div>
+  <!-- foto do totó
+ <img src="https://4.bp.blogspot.com/-E6lBlT-vqls/VzNBXe9qa7I/AAAAAAAABNU/JVFEfsS4Bm4UZ5hA9dBA_tCMQUk7uFWlQCLcB/s1600/procura-se.png" >
+--> 
+</body>
 </html>
-
-

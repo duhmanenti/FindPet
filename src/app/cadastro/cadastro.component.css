@@ -1,0 +1,95 @@
+body{ 
+   /* linhas 3-11, ajusta o plano de fundo*/ 
+   margin-top: -0.5%; 
+   margin-left: -0.5%;
+   padding: 0;
+   border: 0;
+   background: linear-gradient(14deg, #bc9edb,  #6559a3);
+   background-repeat: no-repeat;
+   min-height:100vh;
+   min-width: 100vw;
+   position: fixed;
+  
+}
+  .login-box{
+     /*linhas 15-24 deixam a caixa transparente*/
+     width: 550px;
+     height: 650px;
+     background: rgba(0, 0, 0, 0.6);
+     color:rgb(240, 240, 240);
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     box-sizing: border-box;
+     padding: 50px 60px;
+     border-radius: 10px;
+  }
+  h1{
+     margin: 0;
+     padding: 0 0 19px;
+     text-align: center;
+     font-size:  40px;
+
+  }
+  .login-box p{
+     margin: 0;
+     padding: 0;
+     font-weight: bold;
+  }
+  .login-box input{
+     width: 70%;
+     margin-bottom: 20px;
+     margin-left: 50px;
+
+  }
+  .login-box input[type="text"], input[type="password"], input[type="email"] {
+   border: none;
+   border-bottom: 1px solid #fff; 
+   background: transparent;
+   outline: inherit;
+   height: 20px;
+   color: #fff;
+   font-size: 16px;
+   }
+   .b {
+      /*54-59, estilo do botão de cadastrar*/
+      border: none;
+      height: 40px;
+      background: #644b95;
+      color: #ffffff;
+      font-size: 18px;
+      border-radius: 30px;
+      width: 30px;
+   }
+   .b:hover{
+      cursor: pointer;
+      background: #9370da;
+      color: #dbdbdb;
+      
+   }
+   .login-box a{
+      text-decoration: none;
+      font-size: 14px;
+      color: white;
+
+   }
+   .login-box a:hover{
+      color: blueviolet;
+   }
+  
+hr {
+    /*estilo do hr*/
+	border-width: 0; 
+	height: 2px;
+	border-top-width: 1px;
+   width: 80%;
+   opacity: 0.4;
+   background:#bc9edb;
+	}
+   
+  .login-box{
+  /* coloca sombra na caixa de cadastro*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
