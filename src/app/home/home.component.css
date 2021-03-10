@@ -1,5 +1,5 @@
 body{
-    background-color: #edddff;
+    background-color: rgb(255, 239, 239);
     background-position: fixed;
     padding: 0;
     background-repeat: no-repeat;
@@ -15,8 +15,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6559a3;
+    background-color:rgb(255, 239, 239);
   }
+  
 
   .id{
       position: fixed;
@@ -32,7 +33,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: #6559a3;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
@@ -48,20 +49,21 @@ ul {
   .sobre{
       position: absolute;
       top:20%;
-      left: 5%;
+      left: 8%;
   }
 
   h1 {
-      font-size: 60px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+      line-height: 0.2;
+      font-size: 120px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #6559a3;  
   }
-.button{
-    position: absolute;
-    top: 70%;
-    left:10%;
-    right:75%;
-    transform: translate(-30%, -80%);
+  h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6559a3;  
 }
+
 .btn{
     border-radius: 5px;
     padding: 10px 40px;
@@ -71,6 +73,9 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+
+    
+    
 }
 .btn1{
     border-width: 3px;
@@ -85,6 +90,8 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    
+   
 }
 /* 
 Mudar a cor do botão "Entrar" quando passar o mouse
@@ -100,3 +107,24 @@ Mudar a cor do botão "Criar conta" quando passar o mouse
     background-color: #261e4d;
 
 }
+
+.img{
+    /*altera o tamanho da imagem*/ 
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%; 
+    left: 75%;
+    right: 30px;
+    
+    transform: translate(-50%, -50%);
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left:20%;
+    right: 40%;
+        transform: translate(-30%, -80%);
+    
+  }
