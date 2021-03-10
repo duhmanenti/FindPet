@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(255, 239, 239);
+    background-position: fixed;
+    padding: 0;
+    background-repeat: no-repeat;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-right: -0.6%;
+    min-height: 100vh;
+    min-width: 100vh;
+    border:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 239, 239);
+  }
+  
+
+  .id{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #6559a3;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  /*Mudar a cor dos botões da barra de navegação quando passar o mouse*/
+  li a:hover {
+    background-color: #261e4d;
+  }
+
+  .sobre{
+      position: absolute;
+      top:20%;
+      left: 8%;
+  }
+
+  h1 {
+      line-height: 0.2;
+      font-size: 120px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #6559a3;  
+  }
+  h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6559a3;  
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #6559a3;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+    
+    
+}
+.btn1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6559a3;
+    border-radius: 5px;
+    padding: 7px 55px;
+    border-color: #6559a3;
+    background-color: white;
+    color: #6559a3;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+   
+}
+/* 
+Mudar a cor do botão "Entrar" quando passar o mouse
+*/
+.btn1:hover{
+     background-color: #6559a3;
+    color: white;
+}
+/* 
+Mudar a cor do botão "Criar conta" quando passar o mouse
+*/
+.btn:hover{
+    background-color: #261e4d;
+
+}
+
+.img{
+    /*altera o tamanho da imagem*/ 
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%; 
+    left: 75%;
+    right: 30px;
+    
+    transform: translate(-50%, -50%);
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left:20%;
+    right: 40%;
+        transform: translate(-30%, -80%);
+}
