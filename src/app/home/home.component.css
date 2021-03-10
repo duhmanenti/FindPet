@@ -138,7 +138,6 @@ Mudar a cor do botão "Criar conta" quando passar o mouse
     right: 30px;
     transform: translate(-50%, -50%);
 }
-/* posição da div */
 .button{
     position: absolute;
     top: 70%;
@@ -147,3 +146,12 @@ Mudar a cor do botão "Criar conta" quando passar o mouse
     transform: translate(-30%, -80%);
     
   }
+
+.img{
+    position: absolute;
+    
+    top: 55%; 
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
