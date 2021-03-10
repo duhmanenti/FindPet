@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,17 +10,11 @@ export class HomeComponent implements OnInit {
 
   constructor(
     public router : Router
-  ) { 
+) { 
   }
 
   ngOnInit(): void {
   }
 
-  telaLogin(){
-    {this.router.navigate(["/login"])};
-  }
 
-  telaCadastro(){
-    {this.router.navigate(["/cadastro"])};
-  }
 }
