@@ -1,13 +1,102 @@
+body{
+    background-color: #edddff;
+    background-position: fixed;
+    padding: 0;
+    background-repeat: no-repeat;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-right: -0.6%;
+    min-height: 100vh;
+    min-width: 100vh;
+    border:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6559a3;
+  }
+
+  .id{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  /*Mudar a cor dos botões da barra de navegação quando passar o mouse*/
+  li a:hover {
+    background-color: #261e4d;
+  }
+
+  .sobre{
+      position: absolute;
+      top:20%;
+      left: 5%;
+  }
+
+  h1 {
+      font-size: 60px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
 .button{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 70%;
+    left:10%;
+    right:75%;
+    transform: translate(-30%, -80%);
 }
 .btn{
-    border: 1px;
-    padding: 10px 30px;
-    color: #bfa2ed;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #6559a3;
+    color: white;
     text-decoration: none;
-    transition: 0.6s ease;
+    transition: 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.btn1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #6559a3;
+    border-radius: 5px;
+    padding: 7px 55px;
+    border-color: #6559a3;
+    background-color: white;
+    color: #6559a3;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+/* 
+Mudar a cor do botão "Entrar" quando passar o mouse
+*/
+.btn1:hover{
+     background-color: #6559a3;
+    color: white;
+}
+/* 
+Mudar a cor do botão "Criar conta" quando passar o mouse
+*/
+.btn:hover{
+    background-color: #261e4d;
+
 }
