@@ -22,7 +22,7 @@ color: #615891;
 position: fixed;
 transform: translate(235%, 410%);
 }
-posicaod{
+.posicaod{
  position: static;
  transform: translate(54%, 700%);
  font-weight: bold;
