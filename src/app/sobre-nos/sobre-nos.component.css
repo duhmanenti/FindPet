@@ -22,11 +22,14 @@ div p{
   position: fixed;
   transform: translate(235%, 410%);
 }
-.posicaod{
-  position: fixed;
-  top: 200%;
-  right: 20%;
-}
+posicaod{
+   position: static;
+   transform: translate(54%, 700%);
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   color: #615891;
+  } 
 
 div h1 {
   top: 20%;
