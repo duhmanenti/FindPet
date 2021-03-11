@@ -41,6 +41,35 @@ color: #6559a3;
 position: fixed;
 transform: translate(25%, -110%);
 }
+div p{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #615891;
+}
+.posicaot{
+  position: fixed;
+  transform: translate(235%, 410%);
+}
+posicaod{
+   position: static;
+   transform: translate(54%, 700%);
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   color: #615891;
+  } 
+
+div h1 {
+  top: 20%;
+  left: 30%;
+  right: 30%;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #6559a3;  
+  position: fixed;
+  transform: translate(25%, -110%);
+}
 /*linhas 16-43 ajusta a barra de navegação*/
 ul {
   list-style-type: none;
@@ -153,3 +182,4 @@ div.container {
   padding: 10px 20px;
   transform: translate(-50%, -50%);
 }
+
