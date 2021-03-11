@@ -10,7 +10,11 @@ body{
   min-height: 100vh;
   min-width: 100vh;
   border:0;
- 
+}
+.imglogo{
+  padding: 0px 7px;
+  width: 10px;
+  height: 10px;
 }
 div p{
 font-size: 17px;
@@ -51,7 +55,7 @@ div p{
   position: fixed;
   transform: translate(235%, 410%);
 }
-posicaod{
+.posicaod{
    position: static;
    transform: translate(54%, 700%);
    font-weight: bold;
@@ -78,34 +82,16 @@ ul {
   overflow: hidden;
   background-color:rgb(255, 239, 239);
 }
-.imglogo{
-  width: 50px;
-  height: 50px;
-  padding: 0 5px;
-}
 .posicao1{
   float: left;
   display: block;
-  padding: 10px 10px;
-  left: 5%;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
 /* posição botão do Findpet */
-.posicao2{
-    float: left;
-    display: block;
-    color: #6559a3;
-    text-align: center;
-    padding: 16px 7px;
-    text-decoration: none;
-    font-size:large;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-weight: bold;
-}
 
-.alinhamento:hover{
-  background-color: #ffefef;
-  color: #6559a3;
-}
 .id{
     position: fixed;
     top: 0;
