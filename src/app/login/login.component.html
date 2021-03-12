@@ -10,11 +10,19 @@
         <img src="https://i.ibb.co/DfjcqsK/1615384272128.png"class="logo">
             <h1>Login</h1>
    <form> 
-       <input type="text" name="" placeholder="E-mail@findpet.com" class="inputtp">
-       <input type="password" name="" placeholder="Senha" class="inputtp">
-       <input type="submit" name="" value="Entrar"  class="b">
-       <a routerLink="/recuperar-senha" >Esqueci minha senha  |  </a>
-       <a routerLink="/cadastro" >Não tem uma conta? Criar conta</a>
+       <input type="text" name="email" placeholder="E-mail@findpet.com" class="inputtp" [(ngModel)]="userLogin.email" required>
+       <input type="password" name="senha" placeholder="Senha" class="inputtp" [(ngModel)]="userLogin.senha" required>
+    <div class="posiçaoRotaLogin">
+       <button value="Cadastrar" type="submit" class="button" (click)="login()">Entrar</button>
+    </div>
+       <div *ngIf="mensagemErro" class="alert alert-danger msgerror" role="alert">
+        {{mensagemErro}}
+    </div>
+       <div class="posicaoRotas">
+           <a routerLink="/recuperar-senha" id="link">Esqueci minha senha  |  </a>
+           <a routerLink="/cadastro" id="link">Não tem uma conta? Criar conta</a>
+       </div>
+       
 
    </form>
    </div>

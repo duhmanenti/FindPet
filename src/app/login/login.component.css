@@ -102,3 +102,34 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
    }
+   #link:hover{
+      color: #6559a3;
+   }
+   #link{
+     color: #bc9edb;
+   }
+   .posicaoRotas{
+      transform: translate(7%, -50%);
+   }
+   .posiçaoRotaLogin{
+      transform: translate(0%, -10%);
+   }
+   .button {
+      /*54-59, estilo do botão de Entrar*/
+      border: none;
+      height: 40px;
+      background: #6c4fa7;
+      color: #ffffff;
+      font-size: 18px;
+      border-radius: 30px;
+      width: 30px;
+      width: 70%;
+      margin-bottom: 20px;
+      margin-left: 50px;
+   }
+   .button:hover{
+      cursor: pointer;
+      background: #431d8f;
+      color: #dbdbdb;
+      
+   }

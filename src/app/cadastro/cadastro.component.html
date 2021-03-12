@@ -12,30 +12,33 @@
           <hr>
       </form>
       <br>
-  <input type="text" name="" placeholder="Nome">
+  <input type="text" name="" placeholder="Nome" required>
      
-  <input type="text" name="" placeholder="Sobrenome"> 
+  <input type="text" name="" placeholder="Sobrenome" required> 
   <div>
-    <input type="email" name="email"  placeholder="E-mail" required>
+    <input type="email" name="email" placeholder="E-mail" [(ngModel)]="userCadastro.email" required>
 </div>
   
-  <input type="password" name="" placeholder="Senha" >
+  <input type="password" name="senha" placeholder="Senha" [(ngModel)]="userCadastro.senha" required>
 
-  <input type="password" name="" placeholder="Confirmar senha" >
+  <input type="password" name="senha" placeholder="Confirmar senha" required>
  
 <!-- onkeypress="return event.charCode >= 48 && event.charCode <= 57" é usado para aceitar apenas retornos com numéros-->
 <!--maxlength="11" é pra limitar a quantidade de numeros-->
-  <input type="text"  onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="11" name="" placeholder="(00)00000-0000" >
+  <input type="text"  onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="11" name="" placeholder="(00)00000-0000" required>
 
-   <input type="text" name="" placeholder="Cidade" >
+   <input type="text" name="" placeholder="Cidade" required>
  
-   <input type="text" name="" placeholder="Estado" >
+   <input type="text" name="" placeholder="Estado" required>
  
-   <input type="text" name="" placeholder="Bairro">
+   <input type="text" name="" placeholder="Bairro" required>
  
-   <input type="submit" name="" value="Criar"  class="b">
-   <div>
-    <a routerLink="/login" class="btn">Já tem uma conta? Entrar</a>
+   <button value="Cadastrar" type="submit" class="button" (click)="cadastro()">Cadastrar</button>   
+   <div *ngIf="mensagemErro" class="alert alert-danger" role="alert">
+    {{mensagemErro}}
+</div>
+   <div class="posiçaoRotaLogin">
+    <a routerLink="/login" id="link">Já tem uma conta? Entrar</a>
   </div>
 </div>
   <!-- foto do totó

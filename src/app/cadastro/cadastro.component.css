@@ -13,7 +13,7 @@ body{
 }
   .login-box{
      /*linhas 15-24 deixam a caixa transparente*/
-     width: 550px;
+     width: 450px;
      height: 650px;
      background: rgba(0, 0, 0, 0.6);
      color:rgb(240, 240, 240);
@@ -52,19 +52,22 @@ body{
    color: #fff;
    font-size: 16px;
    }
-   .b {
+   .button {
       /*54-59, estilo do botão de cadastrar*/
       border: none;
       height: 40px;
-      background: #644b95;
+      background: #6c4fa7;
       color: #ffffff;
       font-size: 18px;
       border-radius: 30px;
       width: 30px;
+      width: 70%;
+      margin-bottom: 20px;
+      margin-left: 50px;
    }
-   .b:hover{
+   .button:hover{
       cursor: pointer;
-      background: #9370da;
+      background: #431d8f;
       color: #dbdbdb;
       
    }
@@ -75,7 +78,7 @@ body{
 
    }
    .login-box a:hover{
-      color: blueviolet;
+      color: #644b95;
    }
   
 hr {
@@ -92,4 +95,16 @@ hr {
   /* coloca sombra na caixa de cadastro*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+.posiçaoRotaLogin{
+   transform: translate(26%, -50%);
+}
+a{
+   font-family: Arial, Helvetica, sans-serif;
+}
+#link:hover{
+   color: #6559a3;
+}
+#link{
+  color: #bc9edb;
 }
