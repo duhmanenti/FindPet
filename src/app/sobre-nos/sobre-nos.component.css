@@ -90,20 +90,39 @@ ul {
   text-decoration: none;
   font-weight: bold;
 }
-/* posição botão do Findpet */
 
-.id{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-}
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 239, 239);
+  }
+  /* posição botão do Findpet */
+  .id{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #6559a3;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 li {
   float: right;
 }
-
 li a {
   display: block;
   color: #6559a3;
@@ -118,18 +137,20 @@ li a:hover {
   background-color: #6559a3;
   color: white;
 }
-
-.talia{
-  /*altera o tamanho da imagem*/ 
-  width: 250px;
-  height: 250px;
-  border-radius: 120px;
-  position: fixed;
-  top: 10%; 
-  left: 25%;
-  right: 30px;
-}
-
+  
+  .talia{
+    /*altera o tamanho da imagem*/ 
+    width: 180px;
+    height: 180px;
+    border-radius: 120px;
+    position: absolute;
+    top: 10%; 
+    left: 22%;
+    right: 30px; 
+    box-shadow: inset 0 0 0.5em #615891, 0 0 0.5em rgb(72, 69, 69);
+ /*altera o tamanho da imagem*/ 
+  }
+  
 .duda{
   /*altera o tamanho da imagem*/ 
   width: 250px;
@@ -168,4 +189,125 @@ div.container {
   padding: 10px 20px;
   transform: translate(-50%, -50%);
 }
+/*ajusta o tamanho do polaroid de Duda*/
+div.polaroid {
+    width: 23%;
+    height: 61%;
+    padding: 134px 59px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    transform: translate(90%, 51%);
+    position: fixed;
+  }
+  /*ajusta o tamanho do polaroid de Talia*/
+  div.polaroidd {
+    width: 23%;
+    padding: 120px 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    transform: translate(220%, 50%);
+    position:fixed;
+  }
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    transform: translate(-50%, -50%);
+  }
+/*ajusta os nossos nomes*/
+.posicaoD{
+   position: fixed;
+   transform: translate(97%, 440%);
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   color: #615891;
+  }
+  .posicaoT{
+    position: fixed;
+    transform: translate(155%, 713.13%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #615891;
+   }
+   .infromações{
+    position: static;
+    transform: translate(50%, 220%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #7f7e8a;
+   }
+   /*ajusta o EmailTalia*/
+  .emailT{
+    transform: translate(5%, -535%); 
+    font-size: 13px;
+  }
+  /*ajusta o EmailDuda*/
+  .posicaoemail{
+    transform: translate(50%, 470%); 
+    
+  }
+  /*ajusta o InstituoFPtalia*/
+  .ifT{
+    transform: translate(15%, -330%); 
+    font-size: 13px;
+  }
+  /*ajusta o EmailDuda*/
+  .emailD{
+    text-decoration:underline; 
+    color: #7f7e8a;
+    font-size: 13px;
+    transform: translate(20%, 470%);
+    
+  }
+  /*ajusta o InstituoFPDuda*/
+  .ifD{
+    transform: translate(40%, 450%);
+    font-size: 13px; 
+    position: static;
+    color: #7f7e8a;
+  }
+  /*ajusta o Emailtalia*/
+  .corEmail{
+    text-decoration:underline; 
+    color: #7f7e8a;
+    
+  }
+  /*ajusta o icone de Talia*/
+  .iconeemailT{
+    transform: translate(-35%, -255%);
+    color: #615891;
+    
+  }
+   /*ajusta o icone de email Talia*/
+  .iconeIFT{
+    transform: translate(-35%, -120%);
+    color: #615891;
+  }
+   /*ajusta o icone de Duda*/
+  .iconeemailD{
+    transform: translate(-5%, 480%);
+    color: #615891;
+  }
+  /*ajusta o icone de email Duda*/
+  .iconeIFD{
+    transform: translate(-5%, 663%);
+    color: #615891;
+  }
+  /*ajusta o titulo*/
+  .desenvolvedoras{
+    position:fixed;
+    transform: translate(250%, 150%);
+    color: #615891;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
+  }
+  /*ajusta a linha*/
+    .linha{
+    border-width: 1px;
+    color: #261e4d;
+    width: 42%;
+  }
