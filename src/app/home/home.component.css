@@ -18,6 +18,7 @@ ul {
     overflow: hidden;
     background-color:rgb(255, 239, 239);
   }
+  
 
   .imglogo{
     width: 50px;
@@ -83,12 +84,14 @@ ul {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: #6559a3;  
   }
+
   /* estilo da descrição */
   h2 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #6559a3;  
 }
+
 /* estilo do botão Criar Conta */
 .btn{
     border-radius: 5px;
@@ -99,6 +102,9 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+
+    
+    
 }
 /* estilo do botão Entrar */
 .btn1{
@@ -114,6 +120,8 @@ ul {
     transition: 0.4s ease;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    
+   
 }
 
 /* Mudar a cor do botão "Entrar" quando passar o mouse */
@@ -138,12 +146,33 @@ Mudar a cor do botão "Criar conta" quando passar o mouse
     right: 30px;
     transform: translate(-50%, -50%);
 }
-/* posição da div */
 .button{
     position: absolute;
     top: 70%;
     left:20%;
     right: 40%;
     transform: translate(-30%, -80%);
+    
+  }
+
+.img{
+    /*altera o tamanho da imagem*/ 
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%; 
+    left: 75%;
+    right: 30px;
+    
+    transform: translate(-50%, -50%);
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left:20%;
+    right: 40%;
+        transform: translate(-30%, -80%);
     
   }

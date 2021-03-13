@@ -32,7 +32,9 @@
     "@angular/compiler-cli": "~11.0.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
+    "codelyzer": "^6.0.0"
+  },
+    "firebase-tools": "^9.6.0",
     "fuzzy": "^0.1.3",
     "inquirer": "^6.2.2",
     "inquirer-autocomplete-prompt": "^1.0.1",
@@ -49,4 +51,4 @@
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
   }
-}
+

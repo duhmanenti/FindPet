@@ -1,6 +1,6 @@
 /*plano de fundo ajustado*/
 body{
-  background-color:  #ffefef;
+  background-color:  rgb(255, 239, 239);
   background-position: fixed;
   padding: 0;
   background-repeat: no-repeat;
@@ -10,88 +10,16 @@ body{
   min-height: 100vh;
   min-width: 100vh;
   border:0;
-}
-.imglogo{
-  padding: 0px 7px;
-  width: 10px;
-  height: 10px;
-}
-div p{
-font-size: 17px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-color: #615891;
-}
-.posicaot{
-position: fixed;
-transform: translate(235%, 410%);
-}
-.posicaod{
- position: static;
- transform: translate(54%, 700%);
- font-weight: bold;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 17px;
- color: #615891;
-} 
-
-div h1 {
-top: 20%;
-left: 30%;
-right: 30%;
-font-size: 60px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: #6559a3;  
-position: fixed;
-transform: translate(25%, -110%);
-}
-div p{
-  font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: #615891;
-}
-.posicaot{
-  position: fixed;
-  transform: translate(235%, 410%);
-}
-.posicaod{
-   position: static;
-   transform: translate(54%, 700%);
-   font-weight: bold;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 17px;
-   color: #615891;
-  } 
-
-div h1 {
-  top: 20%;
-  left: 30%;
-  right: 30%;
-  font-size: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #6559a3;  
-  position: fixed;
-  transform: translate(25%, -110%);
+ 
 }
 /*linhas 16-43 ajusta a barra de navegação*/
-ul {
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color:rgb(255, 239, 239);
 }
-.posicao1{
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 0px 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-/* posição botão do Findpet */
-
 .id{
     position: fixed;
     top: 0;
@@ -101,7 +29,7 @@ ul {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -111,61 +39,147 @@ li a {
   padding: 16px 16px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  
+
 }
 
 /*Mudar a cor dos botões da barra de navegação quando passar o mouse*/
 li a:hover {
-  background-color: #6559a3;
-  color: white;
+  background-color: #261e4d;
 }
+
 
 .talia{
   /*altera o tamanho da imagem*/ 
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   border-radius: 120px;
-  position: fixed;
+  position: absolute;
   top: 10%; 
-  left: 25%;
-  right: 30px;
+  left: 22%;
+  right: 30px; 
+  box-shadow: inset 0 0 0.5em #615891, 0 0 0.5em rgb(72, 69, 69);
 }
-
+/*altera o tamanho da imagem*/ 
 .duda{
-  /*altera o tamanho da imagem*/ 
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   border-radius: 120px;
-  position: fixed;
+  position: absolute;
   top: 10%; 
-  left: 25%;
+  left: 21%;
   right: 30px;
-
+  box-shadow: inset 0 0 0.5em #615891, 0 0 0.5em rgb(72, 69, 69);
 }
 /*ajusta o tamanho do polaroid de Duda*/
 div.polaroid {
-  width: 25%;
+  width: 23%;
+  padding: 120px 18px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-  transform: translate(70%, 50%);
-  padding: 200px 25px;
-      
-
+  transform: translate(90%, 48%);
+  position: fixed;
+  
 }
 /*ajusta o tamanho do polaroid de Talia*/
 div.polaroidd {
-  width: 25%;
-  
-  padding: 200px 25px;
+  width: 23%;
+  padding: 120px 25px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-  transform: translate(190%, 50%);
-  position: absolute;
+  transform: translate(220%, 50%);
+  position:fixed;
 }
 div.container {
   text-align: center;
   padding: 10px 20px;
   transform: translate(-50%, -50%);
 }
-
+/*ajusta os nossos nomes*/
+.posicaoD{
+ position: fixed;
+ transform: translate(90%, 470%);
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ color: #615891;
+}
+.posicaoT{
+  position: fixed;
+  transform: translate(150%, 715%);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #615891;
+ }
+ .infromações{
+  position: static;
+  transform: translate(50%, 220%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #7f7e8a;
+ }
+ /*ajusta o EmailTalia*/
+.emailT{
+  transform: translate(5%, -535%); 
+  font-size: 13px;
+}
+/*ajusta o InstituoFPtalia*/
+.ifT{
+  transform: translate(15%, -330%); 
+  font-size: 13px;
+}
+/*ajusta o EmailDuda*/
+.emailD{
+  text-decoration:underline; 
+  
+  transform: translate(50%, 960%);
+  font-size: 13px;
+}
+/*ajusta o InstituoFPDuda*/
+.ifD{
+  transform: translate(60%, 1170%);
+  font-size: 13px; 
+  color: #7f7e8a;
+  
+}
+/*ajusta o Emailtalia*/
+.corEmail{
+  text-decoration:underline; 
+  color: #7f7e8a;
+  
+}
+/*ajusta o icone de Talia*/
+.iconeemailT{
+  transform: translate(-35%, -255%);
+  color: #615891;
+  
+}
+ /*ajusta o icone de email Talia*/
+.iconeIFT{
+  transform: translate(-35%, -120%);
+  color: #615891;
+}
+ /*ajusta o icone de Duda*/
+.iconeemailD{
+  color: #6559a3;
+  transform: translate(14%, 540%);
+}
+/*ajusta o icone de email Duda*/
+.iconeIFD{
+color:#6559a3;
+transform: translate(14%, 623%);
+}
+.desenvolvedoras{
+  position: fixed;
+  font-size: 100px;
+  transform: translate(250%, 150%);
+  color: #6559a3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.coremail{
+  color: #7f7e8a;
+}
