@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+
 import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -37,6 +39,7 @@ import { AjudaComponent } from './ajuda/ajuda.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule, 
     AngularFirestoreModule,
+    AngularFireStorageModule,
     FormsModule
   ],
   providers: [],

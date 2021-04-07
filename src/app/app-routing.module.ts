@@ -6,6 +6,7 @@ import { FeedComponent } from './feed/feed.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RecuperarsenhaComponent } from './login/recuperarsenha/recuperarsenha.component';
+import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'recuperar-senha', component:RecuperarsenhaComponent},
   {path: 'sobre-nos', component:SobreNosComponent},
   {path: 'perfil', component:PerfilComponent},
+  {path: 'editar-perfil', component:EditarPerfilComponent},
   {path: 'feed', component:FeedComponent},
   {path: 'ajuda', component:AjudaComponent},
   {path:'', redirectTo: 'home', pathMatch:'full'}

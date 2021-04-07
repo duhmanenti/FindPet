@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
   async login(){
     try{
       await this.authService.login(this.userLogin).then(
-        (success) => {this.router.navigate(["/feed"])})
+        (success) => {this.router.navigate(["/perfil"])})
     }catch(error){
       switch (error.code) {
         case 'auth/wrong-password':

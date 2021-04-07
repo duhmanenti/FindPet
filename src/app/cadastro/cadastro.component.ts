@@ -28,8 +28,16 @@ export class CadastroComponent implements OnInit {
 
   async cadastro(){
     try{
-      const novoUsuario = await this.authService.cadastro(this.userCadastro).then(
+      const novoUsuario = await this.afAuth.createUserWithEmailAndPassword(this.userCadastro.email!, this.userCadastro.senha!);
+
+      const usuarioObject = Object.assign({}, this.userCadastro);
+      usuarioObject.id = novoUsuario.user?.uid;
+      delete usuarioObject.email;
+      delete usuarioObject.senha;
+      
+      await this.afs.collection("Usuarios").doc(novoUsuario.user?.uid).set(usuarioObject).then(
         (success) => {this.router.navigate(['/feed'])});
+
     }catch(error){
       switch (error.code) {
         case 'auth/email-already-in-use':

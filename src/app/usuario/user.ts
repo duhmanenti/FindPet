@@ -3,6 +3,7 @@ export interface User {
     sobrenome?:string;
     email?:string;
     senha?:string;
+    id?: string;
     idade?:string;
     telefone?:string;
     foto?:string;
