@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
           this.mensagemErro = "Senha Incorreta!";
         break;
         case 'auth/user-not-found':
-          this.mensagemErro = "E-mail Não Cadastrado!";
+          this.mensagemErro = "E-mail não Cadastrado!";
         break;
         case 'auth/invalid-email':
           this.mensagemErro = "E-mail Inválido!";

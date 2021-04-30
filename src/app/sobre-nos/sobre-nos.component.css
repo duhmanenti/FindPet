@@ -12,6 +12,23 @@ body{
   border:0;
  
 }
+.imglogo{
+  padding: 0px 7px;
+  width: 10px;
+  height: 10px;
+}
+
+.posicao1{
+  float: left;
+  display: block;
+  padding: 10px 10px;
+  left: 5%;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /*linhas 16-43 ajusta a barra de navegação*/
  ul {
   list-style-type: none;
