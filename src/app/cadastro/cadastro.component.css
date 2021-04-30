@@ -14,7 +14,7 @@ body{
   .login-box{
      /*linhas 15-24 deixam a caixa transparente*/
      width: 450px;
-     height: 650px;
+     height: 600px;
      background: rgba(0, 0, 0, 0.6);
      color:rgb(240, 240, 240);
      top: 50%;
@@ -84,6 +84,7 @@ body{
 hr {
     /*estilo do hr*/
 	border-width: 0; 
+   
 	height: 2px;
 	border-top-width: 1px;
    width: 80%;
