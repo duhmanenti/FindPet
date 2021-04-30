@@ -63,3 +63,8 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 
   }
+
+  .form{
+    position: absolute;
+    padding: 50px 150px;
+  }

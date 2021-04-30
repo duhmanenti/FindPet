@@ -3,11 +3,10 @@ export interface User {
     sobrenome?:string;
     email?:string;
     senha?:string;
-    id?: string;
-    idade?:string;
+    id?: any;
     telefone?:string;
     foto?:string;
     estado?:string;
-    cidada?:string;
+    cidade?:string;
     bairro?:string;
 }

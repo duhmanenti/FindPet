@@ -15,10 +15,9 @@ import { User } from '../usuario/user';
 })
 export class PerfilComponent implements OnInit {
   usuario : User = {};
-  userId!: string;
+  userId!: any;
   userSubscription!: Subscription;
-  imgSubscription!: Subscription;
-  entrarSair!: boolean;
+  entrarSair?: boolean;
   servicosSubscription!: Subscription;
    
    constructor(
@@ -33,22 +32,21 @@ export class PerfilComponent implements OnInit {
  
    ngOnInit() {
      if(this.afAuth.currentUser != null){
-       this.entrarSair = true;
-     }else this.entrarSair = false;
-  
-     this.userSubscription = this.usuarioService.getUsuario(this.userId).subscribe(data => {
-       this.usuario = data!; 
-     });
-     this.imgSubscription = this.storage.ref('Usuarios/' + this.userId + '/fotoPerfil.jpg').getDownloadURL().subscribe(data => {
-       this.usuario.foto = data;
-     });
-   }
- 
+       this.entrarSair=true;
+       this.userId = this.afAuth.currentUser.catch(this.usuario.id);
+     }else{
+       this.entrarSair=false;
+
+       this.userSubscription = this.usuarioService.getUsuario(this.userId).subscribe(data => {
+         this.usuario = data!;
+       });
+
+     }
+    }
    ngOnDestroy(){ 
      this.userSubscription.unsubscribe();
      this.servicosSubscription.unsubscribe();
    }
-
    async sair(){
      try{
        await this.loginService.sair().then(

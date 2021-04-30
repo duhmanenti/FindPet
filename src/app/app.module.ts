@@ -19,6 +19,8 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { EditarPerfilComponent } from './perfil/editar-perfil/editar-perfil.component';
 import { HomeComponent } from './home/home.component';
 import { AjudaComponent } from './ajuda/ajuda.component';
+import { PerdidosComponent } from './feed/perdidos/perdidos.component';
+import { EncontradosComponent } from './feed/encontrados/encontrados.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { AjudaComponent } from './ajuda/ajuda.component';
     SobreNosComponent,
     EditarPerfilComponent,
     HomeComponent,
-    AjudaComponent
+    AjudaComponent,
+    PerdidosComponent,
+    EncontradosComponent
   ],
   imports: [
     BrowserModule,

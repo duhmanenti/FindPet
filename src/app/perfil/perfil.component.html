@@ -2,22 +2,20 @@
   <head>
     <title>Perfil</title>
   </head>
-  <!--
   <div> 
+    <!--barra de navegação-->
     <ul class="id">
-        <li class="posicao1"><img src="https://i.ibb.co/fn1Ks9G/1615403008507.png" class="imglogo"></li>
+        <li class="posicao1"><a routerLink="/feed">Pagina Inicial</a></li>
         <li class="posicao2">FindPet</li>
-        <li><a routerLink="/ajuda">Ajuda</a>
-        <li><a routerLink="/sobre-nos">Sobre Nós</a>
+        <li><button value="sair" type="submit" class="button" (click)="sair()">Sair</button></li>
+        <li><a routerLink="/sobre-nos">Sobre Nós</a></li>
     </ul>
 </div>
--->
+
   <body>
-  
-       <p>{{ usuario.id }}</p> 
-          <p>Telefone: {{usuario.telefone}}</p>
-          <p>Estado: {{usuario.estado}}</p>
-          <p>Cidade: {{usuario.idade}}</p>
+    <div>
+      <h1>{{ usuario.nome }}</h1>
+    </div>
   </body>
 
 </html>

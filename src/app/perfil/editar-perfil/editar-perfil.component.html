@@ -1,1 +1,39 @@
-<p>editar-perfil works!</p>
+<!DOCTYPE html>
+<html>
+<head>
+ <title>FindPet</title>
+</head>
+
+<div> 
+    <!--barra de navegação-->
+    <ul class="id">
+        <li class="posicao1"><a routerLink="/feed">Pagina Inicial</a></li>
+        <li><a routerLink="/ajuda">Ajuda</a>
+        <li><a routerLink="/sobre-nos">Sobre Nós</a>
+    </ul>
+</div>
+
+<body>
+
+<div class="form">
+
+    <a class="formTitle">Nome</a>
+    <input type="text" class="formInp" name="nome" placeholder="Nome">
+    <a class="formTitle">Sobrenome</a>
+    <input type="text" class="formInp" name="sobrenome" placeholder="Sobrenome">
+    <a class="formTitle">E-mail</a>
+    <input type="text" class="formInp" name="email" placeholder="E-mail">
+    <a class="formTitle">Telefone</a>
+    <input type="text" class="formInp" name="telefone" placeholder="(00)00000-0000">
+    <a class="formTitle">Cidade</a>
+    <input type="text" class="formInp" name="cidade" placeholder="Cidade">
+    <a class="formTitle">Estado</a>
+    <input type="text" class="formInp" name="estado" placeholder="Estado">
+    <a class="formTitle">Bairro</a>
+    <input type="text" class="formInp" name="bairro" placeholder="Bairro">
+
+    <button value="Salvar" type="submit" class="button" (click)="salvar()">Salvar alterações</button>
+</div>
+
+</body>
+</html>
