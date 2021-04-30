@@ -25,7 +25,7 @@ input[type="checkbox"] {
     display: none;
 }
 nav{
-    background-color: #a7a7b1 ;
+    background-color: #45434f ;
     
     width: 350px;
     height: 690px;
@@ -107,3 +107,9 @@ button:hover{
    color: white;
 }
 /*organização dos botões e os nomes principais*/
+p{
+  color: #6559a3;
+}
+body{
+    
+}
